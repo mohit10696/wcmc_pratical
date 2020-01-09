@@ -40,7 +40,8 @@ public class pratical3 extends AppCompatActivity {
 
     public void stop(View view) {
         Toast.makeText(getApplicationContext(),"Stopped",Toast.LENGTH_LONG).show();
-        task.cancel();
         t.cancel();
+        task.cancel();
+
     }
 }
