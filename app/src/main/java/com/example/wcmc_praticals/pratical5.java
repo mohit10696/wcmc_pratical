@@ -17,6 +17,7 @@ public class pratical5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pratical5);
+        setTitle("Pratical 5");
         count=0;
         ID = findViewById(R.id.ID);
         password = findViewById(R.id.password);

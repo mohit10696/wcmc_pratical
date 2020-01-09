@@ -17,6 +17,7 @@ public class pratical3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pratical3);
+        setTitle("Pratical 3");
         t=new Timer();
         task = new TimerTask() {
             @Override

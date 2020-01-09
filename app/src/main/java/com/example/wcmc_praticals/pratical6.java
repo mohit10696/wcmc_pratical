@@ -21,6 +21,7 @@ public class pratical6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pratical6);
+        setTitle("Pratical 6");
         state = false;
         flash = findViewById(R.id.flash);
         mCameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
