@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/violet" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="Violet">
+    </item>
+    <item
+        android:id="@+id/blue"  app:showAsAction="never" android:title="Blue">
+    </item>
+    <item
+        android:id="@+id/pink"  app:showAsAction="never" android:title="Pink">
+    </item>
+    <item
+        android:id="@+id/tan"  app:showAsAction="never" android:title="Tan">
+    </item>
+</menu>

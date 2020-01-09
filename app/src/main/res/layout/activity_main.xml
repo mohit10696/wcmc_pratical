@@ -1,19 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:text="Pratical 1"
+        android:id="@+id/pratical1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 2"
+        app:layout_constraintTop_toBottomOf="@id/pratical1"
+        android:id="@+id/pratical2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 3"
+        android:id="@+id/pratical3"
+        app:layout_constraintTop_toBottomOf="@id/pratical2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 4"
+        android:id="@+id/pratical4"
+        app:layout_constraintTop_toBottomOf="@id/pratical3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 5"
+        android:id="@+id/pratical5"
+        app:layout_constraintTop_toBottomOf="@id/pratical4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 6"
+        android:id="@+id/pratical6"
+        app:layout_constraintTop_toBottomOf="@id/pratical5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 7"
+        android:id="@+id/pratical7"
+        app:layout_constraintTop_toBottomOf="@id/pratical6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 8"
+        android:id="@+id/pratical8"
+        app:layout_constraintTop_toBottomOf="@id/pratical7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 9"
+        android:id="@+id/pratical9"
+        app:layout_constraintTop_toBottomOf="@id/pratical8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 10"
+        android:id="@+id/pratical10"
+        app:layout_constraintTop_toBottomOf="@id/pratical9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 11"
+        android:id="@+id/pratical11"
+        app:layout_constraintTop_toBottomOf="@id/pratical10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 12"
+        android:id="@+id/pratical12"
+        app:layout_constraintTop_toBottomOf="@id/pratical11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 13"
+        android:id="@+id/pratical13"
+        app:layout_constraintTop_toBottomOf="@id/pratical12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 14"
+        android:id="@+id/pratical14"
+        app:layout_constraintTop_toBottomOf="@id/pratical13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 15"
+        android:id="@+id/pratical15"
+        app:layout_constraintTop_toBottomOf="@id/pratical14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 16"
+        android:id="@+id/pratical16"
+        app:layout_constraintTop_toBottomOf="@id/pratical15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Pratical 17"
+        android:id="@+id/pratical17"
+        app:layout_constraintTop_toBottomOf="@id/pratical16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

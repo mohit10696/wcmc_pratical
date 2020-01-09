@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pratical4"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+        <RadioButton
+            android:checked="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id1"
+            android:text="Fahrenheit TO Celsius"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id2"
+            android:text="Celsius TO Fahrenheit"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter number"
+        android:layout_below="@id/groupradio"/>
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:onClick="calculate"
+        android:layout_below="@id/value"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result is: "
+        android:layout_below="@id/cal"
+        android:textSize="30dp"/>
+
+
+
+
+</RelativeLayout>
