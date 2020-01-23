@@ -14,13 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pratical7" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".pratical6" android:parentActivityName=".MainActivity" />
-        <activity android:name=".pratical5" android:parentActivityName=".MainActivity" />
-        <activity android:name=".pratical4" android:parentActivityName=".MainActivity" />
-        <activity android:name=".pratical3" android:parentActivityName=".MainActivity" />
-        <activity android:name=".pratical2" android:parentActivityName=".MainActivity" />
-        <activity android:name=".pratical1" android:parentActivityName=".MainActivity" />
+        <activity android:name=".pratical8"></activity>
+        <activity
+            android:name=".pratical7"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical6"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical5"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical4"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical3"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pratical1"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

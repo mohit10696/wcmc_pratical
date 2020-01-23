@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Intent intent;
-    Button p1,p2,p3,p4,p5,p6,p7;
+    Button p1,p2,p3,p4,p5,p6,p7,p8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         p5 = findViewById(R.id.pratical5);
         p6 = findViewById(R.id.pratical6);
         p7 = findViewById(R.id.pratical7);
-
+        p8 = findViewById(R.id.pratical8);
 
         p1.setOnClickListener(this);
         p2.setOnClickListener(this);
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         p5.setOnClickListener(this);
         p6.setOnClickListener(this);
         p7.setOnClickListener(this);
+        p8.setOnClickListener(this);
 
 
 
@@ -73,6 +74,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             case R.id.pratical7: {
                 intent = new Intent(MainActivity.this,pratical7.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.pratical8: {
+                intent = new Intent(MainActivity.this,pratical8.class);
                 startActivity(intent);
                 break;
             }

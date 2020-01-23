@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".pratical3"
-    android:gravity="center">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".pratical3"
+android:gravity="center">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="stop toasting"
-        android:id="@+id/stop"
-        android:onClick="stop"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="stop toasting"
+    android:id="@+id/stop"
+    android:onClick="stop"/>
 
 </RelativeLayout>
