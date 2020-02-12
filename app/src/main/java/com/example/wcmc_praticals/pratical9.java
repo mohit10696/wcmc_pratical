@@ -18,6 +18,7 @@ public class pratical9 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pratical9);
+        setTitle("Pratical 9");
         editText = findViewById(R.id.urltext);
         webView = findViewById(R.id.webview);
         button = findViewById(R.id.go);
