@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pratical10"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID"
+        android:hint="USERID"
+        android:layout_below="@+id/text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@+id/ID"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_below="@+id/password"
+        android:text="login"
+        android:onClick="loginmethod"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here for sign up"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="singup"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
